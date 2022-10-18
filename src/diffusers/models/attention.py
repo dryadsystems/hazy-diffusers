@@ -54,6 +54,7 @@ class AttentionBlock(nn.Module):
         eps: float = 1e-5,
     ):
         super().__init__()
+        print("USING FLASH ATTENTION")
         self.channels = channels
 
         self.num_heads = channels // num_head_channels if num_head_channels is not None else 1
