@@ -1,5 +1,6 @@
 # Diffusers + FlashAttention
 
+
 This is a branch of [HuggingFace Diffusers](https://github.com/huggingface/diffusers) to incorporate FlashAttention, optimized for high throughput.
 
 ## Installation
